@@ -14,7 +14,7 @@ tags:
 
 I didn't want to buy a CloudKey to manage my Ubiquiti APs, and wanted something lightweight to run the controller. After some research and testing out different methods, I opted to install it directly on a Proxmox container. I found a super handy install script from [Glenn R](https://glennr.nl/) on the Ubiquiti forums which has worked great for me.
 
-Here are the steps I usee to install the controller.
+Here are the steps I use to install the controller.
 
 1. Download an Ubuntu container template into your Proxmox VE
 2. Create LXC container in Proxmox with the template you just downloaded. My current config:
