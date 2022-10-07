@@ -1,4 +1,4 @@
-baseURL = 'https://willtavares.com/'
+baseURL = "https://thewilltavares.github.io/"
 languageCode = 'en-us'
 title = 'Will Tavares Site'
 theme = 'smol'
