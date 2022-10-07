@@ -1,0 +1,48 @@
+baseURL = 'https://willtavares.com/'
+languageCode = 'en-us'
+title = 'Will Tavares Site'
+theme = 'smol'
+canonifyurls = true
+
+# Parameters
+[params]
+    subtitle = "Welcome to my site!"
+    dateFmt = "2006-01-06"
+    mainSections = ["posts"]
+    
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = -100 
+
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/pages/about"
+        weight = -100 
+
+  [[menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url = "/categories/"
+        weight = -100 
+
+  [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = -100
+
+# Footer
+  [[menu.footer]]
+        name = "Github"
+        url = "https://github.com/thewilltavares"
+        weight = 1
+
+    [[menu.footer]]
+        name = "LinkedIn"
+        url = "https://linkedin.com/in/willtavares"
+        weight = 1
