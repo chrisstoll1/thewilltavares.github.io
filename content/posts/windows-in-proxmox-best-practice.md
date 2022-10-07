@@ -3,7 +3,7 @@ title: "Windows OS in Proxmox - VM Settings Best Practice"
 date: 2022-10-07T17:42:29-04:00
 slug: 2022-10-07-windows-in-proxmox-best-practice
 type: posts
-draft: true
+draft: false
 categories:
   - How-To
 tags:
