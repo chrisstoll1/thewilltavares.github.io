@@ -37,7 +37,8 @@ Here are the steps I use to install the controller.
     
     **Optional/Troubleshooting: make script executable chmod +x {script}.sh*
 6. Run the script and follow the install prompts
-    <br>`bash {script}.sh --skip --fqdn {FQDN}:www.{FQDN}`
+
+    `bash {script}.sh --skip --fqdn {FQDN}:www.{FQDN}`
 
 
 Congratulations! You should now have a fully functional UniFi controller running on a Proxmox LXC container. Go to https://{address}:8443/ to finish setup.
