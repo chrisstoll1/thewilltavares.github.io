@@ -1,7 +1,6 @@
 baseURL = "https://thewilltavares.github.io/"
 languageCode = 'en-us'
 title = 'Will Tavares Site'
-theme = 'smol'
 canonifyurls = true
 
 # Parameters
@@ -9,6 +8,7 @@ canonifyurls = true
     subtitle = "Welcome to my site!"
     dateFmt = "2006-01-06"
     mainSections = ["posts"]
+    theme = "https://github.com/colorchestra/smol"
     
 # Header
 [menu]
