@@ -4,11 +4,12 @@ title = 'Will Tavares Site'
 canonifyurls = true
 
 # Parameters
+theme = "smol"
 [params]
     subtitle = "Welcome to my site!"
     dateFmt = "2006-01-06"
     mainSections = ["posts"]
-    theme = "smol"
+
     
 # Header
 [menu]
